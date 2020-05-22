@@ -1,0 +1,15 @@
+#pragma weak mpi_finalize = mpi_finalize_
+#pragma weak mpi_finalize__ = mpi_finalize_
+#pragma weak MPI_FINALIZE = mpi_finalize_
+#pragma weak MPI_FINALIZE_ = mpi_finalize_
+#pragma weak MPI_FINALIZE__ = mpi_finalize_
+#pragma weak mpi_init = mpi_init_
+#pragma weak mpi_init__ = mpi_init_
+#pragma weak MPI_INIT = mpi_init_
+#pragma weak MPI_INIT_ = mpi_init_
+#pragma weak MPI_INIT__ = mpi_init_
+#pragma weak mpi_init_thread = mpi_init_thread_
+#pragma weak mpi_init_thread__ = mpi_init_thread_
+#pragma weak MPI_INIT_THREAD = mpi_init_thread_
+#pragma weak MPI_INIT_THREAD_ = mpi_init_thread_
+#pragma weak MPI_INIT_THREAD__ = mpi_init_thread_
