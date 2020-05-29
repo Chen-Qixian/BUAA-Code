@@ -62,7 +62,7 @@ export default {
         },
         {
           type: 'block',
-          msg:'QTLS'
+          msg:'QTMS'
         },
         {
           type: 'deployment-unit',

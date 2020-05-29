@@ -68,7 +68,7 @@ export default {
             axisTick: {
                 alignWithLabel: true
             },
-            data: ['LPMS', 'QTLS', 'TOPO', 'APHiD', 'TREE', 'MPIPP'],
+            data: ['LPMS', 'QTMS', 'TOPO', 'APHiD', 'TREE', 'MPIPP'],
             axisLabel: {
               color: '#ccc',
               rotate: 45,

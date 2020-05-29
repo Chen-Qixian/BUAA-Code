@@ -37,9 +37,9 @@ export default {
   },
   data() {
     return {
-      title: 'QTLS',
+      title: 'QTMS',
       fullName: 'Quadratic Time Complexity Locality Detection Algorithm for Shared HPC Systems',
-      introduction: 'The QTLS algorithm is suitable for computing the network structure with the feature of adjacency. Based on the fast community partition algorithm of QTLS, the iteration strategy and convergence criterion are designed, and the ideal effect is achieved.',
+      introduction: 'The QTMS algorithm is suitable for computing the network structure with the feature of adjacency. Based on the fast community partition algorithm of QTLS, the iteration strategy and convergence criterion are designed, and the ideal effect is achieved.',
       msg: 'Upload Communication Topology',
       n: 1,
       m: '',

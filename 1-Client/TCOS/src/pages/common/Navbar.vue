@@ -8,14 +8,14 @@
         @click="info"
       >
       <div class="info" v-if="cn">
-        <p class="title" @click="info">开发人员</p>
-        <p class="name" @click="info">陈麒先</p>
-        <p class="school" @click="info">北京航空航天大学</p>
+        <p class="title" @click="info">开发单位</p>
+        <p class="name" @click="info">北京航空航天大学</p>
+        <p class="school" @click="info">计算机学院</p>
       </div>
       <div class="info" v-else>
-        <p class="title" @click="info">Developer</p>
-        <p class="name" @click="info">Chen Qixian</p>
-        <p class="school" @click="info">Beihang University</p>
+        <p class="title" @click="info">Developed By</p>
+        <p class="name" @click="info">Beihang University</p>
+        <p class="school" @click="info">School of Computer Science and Engineering</p>
       </div>
     </div>
     <a-modal

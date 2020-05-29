@@ -37,9 +37,9 @@ export default {
   },
   data() {
     return {
-      title: 'QTLS',
+      title: 'QTMS',
       fullName: 'Quadratic Time Complexity Locality Detection Algorithm for Shared HPC Systems',
-      introduction: 'QTLS算法适用于计算节点有邻近性特征的网络结构，约束条件为：每个进程组内进程数应与对应节点内计算核心数相等，且最终划分得到的进程组数应与计算节点总数相等。QTLS基于快速社区划分算法，对其迭代策略和收敛判别条件进行设计，达到了理想的实现效果。',
+      introduction: 'QTMS算法适用于计算节点有邻近性特征的网络结构，约束条件为：每个进程组内进程数应与对应节点内计算核心数相等，且最终划分得到的进程组数应与计算节点总数相等。QTMS基于快速社区划分算法，对其迭代策略和收敛判别条件进行设计，达到了理想的实现效果。',
       msg: '通信拓扑文件上传',
       n: 1,
       m: '',

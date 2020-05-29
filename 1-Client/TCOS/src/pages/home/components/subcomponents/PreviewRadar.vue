@@ -38,7 +38,7 @@ export default {
         radar: {
           indicator: [
             {name: 'LPMS', max: 6},
-            {name: 'QTLS', max: 6},
+            {name: 'QTMS', max: 6},
             {name: 'TOPO', max: 6},
             {name: 'APHID', max: 6},
             {name: 'TREE', max: 6},
