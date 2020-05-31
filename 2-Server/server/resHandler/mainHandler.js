@@ -21,14 +21,16 @@ function initDB() {
 function dataRes(para) {
     // console.log('###main para: ',para)
     let category = para.method
+    let procNum = para.procNum
+    let fileFormat = para.fileFormat
     let item = 0
     let res = {}
     res = db[category][item] || {}
     addPreview(res, parseInt(category))
-    addHeat(res, 0)
+    addHeat(res, procNum)
     addTask(res)
-    addTree(res, 1)
-    addDownload(res)
+    addTree(res, fileFormat)
+    addDownload(res, category, procNum)
     // console.log(res)
     return res
 }

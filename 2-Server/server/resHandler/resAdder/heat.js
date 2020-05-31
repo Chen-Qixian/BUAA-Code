@@ -25,18 +25,25 @@ function heat128(res) {
 }
 
 function addHeat(res, c) {
+    const m = {
+        '16': 1,
+        '32': 2,
+        '64': 3,
+        '128': 4
+    }
+    c = m[c] || 3   // if undefined then use 128
     let size = 16
     let s = p[c]
-    if(c == 0) {
+    if(c == 1) {
         size = 16
     }
-    else if(c == 1) {
+    else if(c == 2) {
         size = 32
     }
-    else if(c == 2) {
+    else if(c == 3) {
         size = 64
     }
-    else if(c == 3) {
+    else if(c == 4) {
         heat128(res)
         return
     }
@@ -68,6 +75,7 @@ function addHeat(res, c) {
 module.exports = addHeat
 
 let p =  [
+    '',
     `0 100 19 12 19 11 2511 223 2818 12 10 12589 14 22 177 281 
     100 0 12 12 25 28 223 1412 199 11 12 281 14 11 2818 15848 
     19 12 0 223 251 15848 17 10 14 199 112 10 1995 1412 12 10 
