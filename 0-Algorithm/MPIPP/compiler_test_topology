@@ -1,0 +1,1 @@
+gcc -o test_topology test_topology.o tm_TOPOLOGY.o tm_MALLOC.o -L/usr/local/lib -lhwloc

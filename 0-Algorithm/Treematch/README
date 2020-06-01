@@ -1,0 +1,92 @@
+TreeMatch -- A process placement algorithm
+# Copyright (c) 2012, Inria All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+#     1. Redistributions of source code must retain the above copyright
+#     notice, this list of conditions and the following disclaimer.
+#     2. Redistributions in binary form must reproduce the above
+#     copyright notice, this list of conditions and the following
+#     disclaimer in the documentation and/or other materials provided
+#     with the distribution.  3. Neither the name of Inria nor the names
+#     of its contributors may be used to endorse or promote products
+#     derived from this software without specific prior written
+#     permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+TreeMatch is an algorithm allowing to map processes on cores while reducing
+communication cost
+
+Install 
+=======
+
+Read ./INSTALL file or:
+> ./configure
+> sudo make install
+
+Will compile the 'mapping' executable and the libtreematch library
+
+If configure does not exsist run autogen.sh
+
+Install with Scotch
+===================
+
+If you want to compile TreeMatch with Scotch features, set the SCOTCH_DIR variable.
+
+> ./configure SCOTCH_DIR=/dir/to/scotch/install
+> sudo make install
+
+
+Dependencies
+============
+
+TreeMatch requires HWLOC: http://www.open-mpi.org/projects/hwloc/
+
+
+Documentation
+=============
+
+In ./doc/treematch_doc.txt
+
+It explains how the mapping executable works and the libtreematch API.
+
+
+Test
+====
+
+run ./test_tm.pl in ./examples: (cd examples; ./test_tm.pl)
+
+or do
+
+> make check
+
+Examples
+========
+
+Topologies, communication patterns and binding constraints files can be found in ./examples
+
+
+Source
+======
+
+library: in: ./src/libtreematch
+mapping executable in: ./src/treematch
+
+
+License
+=======
+
+TreeMatch is opensource under freebsd see ./LICENSE file
