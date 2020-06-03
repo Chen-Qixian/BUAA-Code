@@ -1,1 +1,10 @@
-32TopoMapping
+### TopoMapping Result ###
+# Node Number: 8 #
+# Core Number: 32 #
+# Task Order: BFS #
+# PackNodeFirst: False #
+# Mapping Scheme #
+
+22 29 27 24 6 14 0 3 25 16 19 1 30 11 17 18 20 26 2 15 4 8 28 7 13 5 21 9 23 12 10 31
+
+##################

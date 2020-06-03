@@ -7,7 +7,7 @@
       <a-table
         :columns="columns"
         :dataSource="dataSet"
-        :pagination="{ pageSize: 50 }"
+        :pagination="{ pageSize: 8 }"
         :scroll="{ y: 272 }"
       />
       <div class="choose">
@@ -85,7 +85,7 @@ const columns = [
     align: 'center'
   },
   {
-    title: '计算核心数',
+    title: '节点计算核心数',
     dataIndex: 'coreNum',
     width: 200,
     align: 'center'
