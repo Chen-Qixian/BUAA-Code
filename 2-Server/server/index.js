@@ -1,3 +1,7 @@
+/**
+ * Author: Chen Qixian
+ * Email: chenqixian@buaa.edu.cn
+ */
 /* const params */
 const uploadDest = '/Users/chenqixian/Desktop/tmpFiles'
 const port = 8000

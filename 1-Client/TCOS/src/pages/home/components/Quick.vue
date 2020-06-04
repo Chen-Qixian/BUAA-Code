@@ -86,7 +86,7 @@ export default {
       calcIcon: 'rocket',
       fileStatus: false,
       showDownload: false,
-      filePath: `../../../../static/resultFile/${path}`
+      filePath: `../../../../static/resultFile/output`
     }
   },
   methods: {

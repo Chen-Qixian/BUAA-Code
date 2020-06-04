@@ -1,3 +1,7 @@
+/**
+ * Author: Chen Qixian
+ * Email: chenqixian@buaa.edu.cn
+ */
 import Vue from 'vue'
 import App from './App'
 import router from './router'
